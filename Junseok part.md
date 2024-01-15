@@ -316,7 +316,7 @@ $\quad$ This is the virtual transition flight test result for the speed schedule
 $\quad$ Through the interpretation of the generated transition flight schedule, it can be confirmed that the virtual transition flight test results tend to follow a trend. Depending on the characteristics of the speed schedule 𝐵, which involves gradually changing the flight speed and then rapidly decelerating, it can be observed that speed, acceleration, and flight distance undergo changes, but some errors are evident. Among these, schedules that maintain the flight pitch angle show a more stable evolution and exhibit a trend similar to the transition flight schedule.
 
 <p align="center">
-  <img width="700" height="300" src=image-12.png
+  <img src="./GitHub Desktop.lnk width="700" height="300" src=image-12.png>
 </p>
 
 <p align="center"> < Picture 55 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Pitch Attitude Test Results
