@@ -330,3 +330,25 @@ $\quad$ The flight control system receives pitch attitude setpoint values accord
 <p align="center"> 76
 
 --------------------------------------------------------
+
+# Chapter 6. Conclusion 
+
+## Section 1. Conclusion
+
+$\quad$ In this paper, a transition flight schedule for eVTOL tiltrotor aircraft was derived through trim analysis based on speed scheduling and lift distribution according to transition stability requirements. Additionally, an open-source flight control software and aerodynamic software were utilized to create a simulation environment tailored to the target aircraft. Virtual transition flight tests were conducted by applying the transition flight schedule in this simulated environment to ensure transition flight stability.
+
+$\quad$ The applied transition flight schedule for virtual transition flight tests yielded four different schedules based on speed and lift coefficient contours. Commonly, in schedules where the flight pitch angle changes according to the lift coefficient contours, unstable results were observed compared to schedules that maintain a constant flight pitch angle. This is attributed to the inability of the attitude control system to guarantee performance in transition flight segments where flight characteristics change rapidly. Regarding the speed schedule, Schedule A, which smoothly accelerates and decelerates speed, demonstrated more stable results than Schedule B, which accelerates slowly and decelerates rapidly. The reason for this is that as the flight state changes rapidly during the transition flight process, the flight control system finds it challenging to track. Therefore, it can be concluded that an advantageous transition flight schedule involves smooth acceleration and deceleration of speed while maintaining a constant flight pitch angle.
+
+$\quad$ Through this research, it has been confirmed that transition flight schedules generated at 3 degrees of freedom enhance flight stability even in a 6 degrees of freedom flight simulation environment. This validates the utility of transition flight scheduling. With this study, we anticipate achieving stable operations in the transition flight segments of eVTOL tiltrotor aircraft. Through the ongoing research of this kind, we hope to further explore the benefits of utilizing tiltrotor configurations.
+
+<p align="center"> 77
+
+-------------------------------------------------------
+
+## Section 2. Future Plans
+
+$\quad$ In this paper, a transition flight schedule for eVTOL tiltrotor aircraft was derived through interpretation. While the utility of the transition flight schedule was confirmed through virtual transition flight tests in a flight simulation environment, the performance of the flight controller was found to be insufficient due to the limitations of utilizing an open-source-based flight controller. In the future, to address these issues, a transition flight controller considering the flight characteristics varying with tilt angle and flight speed will be developed. The transition flight schedule will be applied, and stability will be verified through flight simulations. After confirming stability through flight simulations, practical flight tests using a physical aircraft will be conducted to validate the transition flight schedule and transition flight controller.
+
+<p align="center"> 78
+
+-----------------------------------------------------
