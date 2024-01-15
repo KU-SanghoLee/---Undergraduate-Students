@@ -37,6 +37,11 @@ $\quad$ Numerous studies are underway to ensure the flight stability during tran
 
 $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conducted to understand the flight complexity of tiltrotor aircraft by examining the airspeed and flight path angle or vertical velocity at various flight regimes based on propeller tilt angles. To achieve this, longitudinal flight dynamics modeling of Bell's XV-15 was employed. Trim analysis was conducted based on flight speed and propeller tilt angles to analyze the regions where stable flight was feasible.
 
+<p align="center">
+  <img width="400" height="350" src=![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)>
+</p>
+
+  
 
 ![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)
 
@@ -69,7 +74,6 @@ $\quad$ Afterward, following the optimal slope schedule, specifying trim points 
 ------------------------------------------------------------------------------------
 
 ### 3. Limitations of existing similar research
-
 $\quad$ Through the analysis of previous similar studies, the limitations of the research were identified, and the necessity of this study is presented. The study focuses on confirming the flight characteristics of eVTOL tiltrotor aircraft for stable transition flight by interpreting the aircraft's trim, selecting linearization points, and designing a flight control system based on gain scheduling.
 
 $\quad$ This research enabled eVTOL tiltrotor aircraft to control altitude and speed during transition flight, depending on the flight speed. However, it had limitations in controlling the magnitude of acceleration or adjusting it for transition flight duration. Additionally, through studies aiming to complete transition flights within a given time frame, it was possible to allocate appropriate time for mission-specific transition flights with higher operational risk due to lower flight stability and operate accordingly. Such research could offer a more diverse range of control methods for flight control.
