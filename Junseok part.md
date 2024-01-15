@@ -37,9 +37,10 @@ $\quad$ Numerous studies are underway to ensure the flight stability during tran
 
 $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conducted to understand the flight complexity of tiltrotor aircraft by examining the airspeed and flight path angle or vertical velocity at various flight regimes based on propeller tilt angles. To achieve this, longitudinal flight dynamics modeling of Bell's XV-15 was employed. Trim analysis was conducted based on flight speed and propeller tilt angles to analyze the regions where stable flight was feasible.
 
-<p align="center">
-  <img width="400" height="350" src=image-1.png>
-</p>
+
+![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)
+
+
 
  <p align="center"> 
  < Picture 1 > Transition Corridor for Various Rotor Tilt Angels
@@ -57,9 +58,7 @@ $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conduc
 $\quad$ Afterward, following the optimal slope schedule, specifying trim points for linearization, and gain scheduling along the linearized points of the PID controller, we designed the controller. Through this controller, when adjusting the desired speed, the controller gain values and propeller tilt angles automatically change, enabling flight
 
 
-<p align="center">
-  <img width="400" height="350" src=image-25.png>
-</p>
+![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/9ead0660-baf5-4a24-9139-5cc3c98f23d3)
 
 <p align="center">
 < Picture 2 > Optimal Propeller Tilt Schedule
@@ -92,9 +91,7 @@ $\quad$ Therefore, the purpose of this study is to generate a transition flight 
 
 -----------------------------------------------------------------------------------
 
-<p align="center">
-  <img width="600" height="400" src=image-14.png>
-</p> 
+![image-2](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/146f4969-9670-4dbc-88c5-17869b93cc9c)
 <p align="center">  < Picture 3 > Overall research process architecture
 
 <p align="center"> 7
@@ -117,16 +114,12 @@ $\quad$ For the state of transition flight, the state of flight such as altitude
 
 -----------------------------------------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-15.png>
-</p> 
+![image 38](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/758914b4-51bf-42b1-8a67-69e3374bde7d)
 
 
 <p align="center"> < Picture 38 > Virtual Transition Flight Test Results Flight Distance Analysis
 
-<p align="center">
-  <img width="700" height="300" src=image-16.png>
-</p> 
+![image39](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/fcc1c4ce-12f0-4baf-8a0a-5365f897d71c)
 
 <p align="center">< Picture 39 > Virtual Transition Flight Test Results Flight Altitude Analysis
 
@@ -138,16 +131,12 @@ $\quad$ First, flight distance and altitude, which are longitudinal location com
 
 $\quad$ In the case of flight altitude, it can be observed that there is significant altitude loss in the virtual transition flight tests of the existing PX4-Autopilot. However, when applying transition flight schedules, a substantial reduction in altitude loss for the aircraft can be confirmed. Among these, it can be observed that case 𝐴, where the speed is smoothly varied, exhibits a more stable flight compared to case 𝐵. In case 𝐴, maintaining the attitude angle results in a similar and effective altitude maintenance compared to when the attitude angle is changing. In case 𝐵, it is evident that maintaining the attitude angle is more stable for flight than changing the attitude angle.
 
-<p align="center">
-  <img width="700" height="300" src=image-17.png>
-</p>
+![image 2024-01-12 111640](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/1362bc68-4da8-4af2-8ff1-eec91681fbff)
 
 
 <p align="center"> < Picture 40 > Flight Speed Analysis of Virtual Transition Flight Test Results
 
-<p align="center">
-  <img width="700" height="300" src=image-18.png>
-</p>
+![image 2024-01-12 111710](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/1a14aff8-3db5-4b08-bb47-ee538a2f5f98)
 
 <p align="center"> < Picture 41 > Analysis of Flight Acceleration of Virtual Transition Flight Test Results
 
