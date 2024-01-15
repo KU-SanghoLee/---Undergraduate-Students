@@ -38,7 +38,7 @@ $\quad$ Numerous studies are underway to ensure the flight stability during tran
 $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conducted to understand the flight complexity of tiltrotor aircraft by examining the airspeed and flight path angle or vertical velocity at various flight regimes based on propeller tilt angles. To achieve this, longitudinal flight dynamics modeling of Bell's XV-15 was employed. Trim analysis was conducted based on flight speed and propeller tilt angles to analyze the regions where stable flight was feasible.
 
 <p align="center">
-  <img width="400" height="350" src=![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)>
+  <img width="400" height="350" src= img/image.png>
 </p>
 
 <p align="center">
