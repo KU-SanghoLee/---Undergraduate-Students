@@ -154,10 +154,7 @@ $\quad$ In the case of flight acceleration, when the existing transient flight a
 
 ------------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-19.png>
-</p>
-
+![image 2024-01-12 112929](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/3f3eb444-828a-434e-83db-faa519e3d1ec)
 
 <p align="center"> < Picture 42 > Pitch Angle Analysis of Virtual Transition Flight Test Results
 
@@ -172,15 +169,11 @@ $\quad$ The purpose of this study is to analyze flight controls such as propelle
 
 -----------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-20.png>
-</p>
+![image 2024-01-12 114130](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/8559c610-8929-4837-98e0-64b5cccf4048)
 
 <p align="center"> < Picture 43 > Tilt Angle Analysis of Virtual Transition Flight Test Results
-
-<p align="center">
-  <img width="700" height="300" src=image-21.png>
-</p>
+ 
+![image 11](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/a64f8ab4-3a8b-4aec-b1d7-d6d2f95fbdd8)
 
 <p align="center"> < Picture 44 > Motor Control Analysis of Virtual Transition Flight Test Results
 
@@ -188,9 +181,7 @@ $\quad$ The purpose of this study is to analyze flight controls such as propelle
 
 ---------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-22.png>
-</p>
+![image 12](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/50cd7d04-c735-434f-9841-ae960d6ab712)
 
 <p align="center"> < Picture 45 > Analysis of the Tail Control of the Virtual Transition Flight Test Results
 
@@ -218,9 +209,7 @@ $\quad$ In this section, we will analyze the interpretation-based transitional f
 
 $\quad$ The following is the transition flight test results for speed schedule 𝐴, which smoothly changes speed, depending on the thrust allocation ratio on the attitude control, maintaining the attitude angle or changing the attitude angle. A comparison was made for altitude, flight distance, speed, acceleration, and attitude angle changes during the transition flight schedule and the virtual transition flight test results. The following is a comparison graph.
 
-<p align="center">
-  <img width="700" height="300" src=image-23.png>
-</p>
+![image 2024-01-12 134312](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/dadb37b0-a702-4060-bb0a-af88fef82320)
 
 <p align="center"> < Picture 46 > Comparison of Transition Flight Schedule 𝑨 and Virtual Flight Test Results
 
@@ -228,21 +217,15 @@ $\quad$ The following is the transition flight test results for speed schedule �
 
 -----------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-4.png>
-</p>
+![image47](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/55e816ae-b0da-4970-bab5-4f0d272378cc)
 
 <p align="center"> < Picture 47 > Comparison of Flight Altitude with Transition Flight Schedule 𝑨 and Virtual Flight Test Results
 
-<p align="center">
-  <img width="700" height="300" src=image-5.png>
-</p>
+![image48](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/d92b0ab3-8ff8-4fb6-b280-4442d5b741cf)
 
 <p align="center"> < Picture 48 > Comparison of Flight Speed with Transition Flight Schedule 𝑨 and Virtual Flight Test Results
 
-<p align="center">
-  <img width="700" height="300" src=image-6.png>
-</p>
+![image49](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/b5e1747b-54a1-4047-bc0f-5f4f9fa70562)
 
 <p align="center"> < Picture 49 > Comparison of Flight Accleration with Transition Flight Schedule 𝑨 and Virtual Flight Test Results
 
@@ -252,10 +235,7 @@ $\quad$ The following is the transition flight test results for speed schedule �
 
 $\quad$ Through the analysis of the generated transitional flight schedule based on interpretation, it can be confirmed that virtual transitional flight test results exhibit a consistent trend. Depending on the characteristics of the speed schedule 𝐴, which smoothly varies the flight speed, it is observed that speed, acceleration, and flight distance change similarly. Among these, in the schedule that maintains the flight angle of attack, the changes are more stable, and it is confirmed that it shows a similar trend to the transitional flight schedule.
 
-
-<p align="center">
-  <img width="700" height="300" src=image-7.png>
-</p>
+![image50](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/5aeb7aac-0f3b-48fd-9c6b-8ab4f8c0a9b1)
 
 <p align="center"> < Picture 50 > Comparison of Transition Flight Test Schedule and Virtual Transition Flight Test Results Pitch Angle
 
@@ -269,9 +249,7 @@ $\quad$ It can be observed that, according to the pitch angle schedule of the tr
 
 $\quad$ This is the virtual transition flight test result for the speed schedule 𝐵, which gradually changes speed and then rapidly decelerates, according to the lift distribution schedule. During the transition flight process, a comparison was made for altitude, flight distance, speed, acceleration, and changes in attitude angle between maintaining the attitude angle and changing it. The following are the comparison graphs.
 
-<p align="center">
-  <img width="700" height="300" src=image-8.png>
-</p>
+![image51](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/8f866168-6953-42ed-8992-5e681fd494fd)
 
 <p align="center"> < Picture 51 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Flight Test Results
 
@@ -279,21 +257,15 @@ $\quad$ This is the virtual transition flight test result for the speed schedule
 
 ---------------------------------------------------------
 
-<p align="center">
-  <img width="700" height="300" src=image-9.png>
-</p>
+![image52](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/b037bb16-ba6f-49be-bcd7-6ad3cc35281d)
 
 <p align="center"> < Picture 52 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Flight Altitude Test Results
 
-<p align="center">
-  <img width="700" height="300" src=image-10.png>
-</p>
+![image 53](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/39afc8e3-bee4-46ea-8461-8b219dce6fd2)
 
 <p align="center"> < Picture 53 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Flight Speed Test Results
 
-<p align="center">
-  <img width="700" height="300" src=image-11.png>
-</p>
+![image 54](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/50c544d8-d037-4bcf-87e8-2ade70d14e11)
 
 <p align="center"> < Picture 54 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Flight Accleration Test Results
 
@@ -303,9 +275,7 @@ $\quad$ This is the virtual transition flight test result for the speed schedule
 
 $\quad$ Through the interpretation of the generated transition flight schedule, it can be confirmed that the virtual transition flight test results tend to follow a trend. Depending on the characteristics of the speed schedule 𝐵, which involves gradually changing the flight speed and then rapidly decelerating, it can be observed that speed, acceleration, and flight distance undergo changes, but some errors are evident. Among these, schedules that maintain the flight pitch angle show a more stable evolution and exhibit a trend similar to the transition flight schedule.
 
-<p align="center">
-  <img width="700" height="300" src=image-24.png>
-</p>
+![image 55](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/93485018-7716-4cf0-bbbd-5630c8ce7378)
 
 <p align="center"> < Picture 55 > Comparison of Transition Flight Schedule 𝑩 and Virtual Transition Pitch Attitude Test Results
 
