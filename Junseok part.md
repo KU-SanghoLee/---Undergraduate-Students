@@ -33,7 +33,7 @@ $\quad$ Tiltrotor aircraft have a unique flight phase called transition flight, 
 
 $\quad$ Numerous studies are underway to ensure the flight stability during transition phases, which are inherently unstable, for the operation of safe eVTOL tiltrotor aircraft. In this section, we analyze existing similar research on securing the transitional flight stability of eVTOL tiltrotor aircraft and present the limitations of these studies, clearly establishing the need for our research.
 
-### $\quad$ 1. Interpretative study in Performance of Transition flight area
+### $\quad$ 1. Interpretative Study in Performance of Transition Flight Area
 
 $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conducted to understand the flight complexity of tiltrotor aircraft by examining the airspeed and flight path angle or vertical velocity at various flight regimes based on propeller tilt angles. To achieve this, longitudinal flight dynamics modeling of Bell's XV-15 was employed. Trim analysis was conducted based on flight speed and propeller tilt angles to analyze the regions where stable flight was feasible.
 
@@ -55,7 +55,7 @@ $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conduc
 
 --------------------------------------------------------------------------
 
- ### 2. Research on Transition flight control
+ ### 2. Research on Transition Flight Control
 
 
  $\quad$ In a paper from the University of Cranfield in the UK, the longitudinal flight control system of an eVTOL tiltrotor aircraft was developed. In this process, instead of manipulating the propeller tilt angle, the pilot adjusted the flight speed using minimal power curves and numerical optimization to determine the optimal tilt schedule. To achieve this, trim analysis of the aircraft's performance was conducted, utilizing this information to assess the feasible flight envelope based on propeller tilt angles and determining the optimal tilt schedule.
@@ -73,7 +73,7 @@ $\quad$ Afterward, following the optimal slope schedule, specifying trim points 
 
 ------------------------------------------------------------------------------------
 
-### 3. Limitations of existing similar research
+### 3. Limitations of Existing Similar Research
 $\quad$ Through the analysis of previous similar studies, the limitations of the research were identified, and the necessity of this study is presented. The study focuses on confirming the flight characteristics of eVTOL tiltrotor aircraft for stable transition flight by interpreting the aircraft's trim, selecting linearization points, and designing a flight control system based on gain scheduling.
 
 $\quad$ This research enabled eVTOL tiltrotor aircraft to control altitude and speed during transition flight, depending on the flight speed. However, it had limitations in controlling the magnitude of acceleration or adjusting it for transition flight duration. Additionally, through studies aiming to complete transition flights within a given time frame, it was possible to allocate appropriate time for mission-specific transition flights with higher operational risk due to lower flight stability and operate accordingly. Such research could offer a more diverse range of control methods for flight control.
@@ -110,7 +110,7 @@ $\quad$ In this chapter, an analysis of the test results for eVTOL Tiltrotor sim
 
 $\quad$ This is an analysis of the transition flight algorithm applied to the existing flight control software and a different transition flight schedule. In this section, it can be confirmed that utilizing interpretation-based transition flight schedules ensures stability.
 
-### 1. Comparison of flight status
+### 1. Comparison of Flight Status
 
 $\quad$ For the state of transition flight, the state of flight such as altitude, flight distance, acceleration, speed, and pitch posture angle, which are longitudinal factors, will be analyzed. The following is an analysis of the virtual transition flight test results, and a blue vertical dotted line at 0 seconds means the start of the transition flight, and a red vertical dotted line at 7 seconds means the end of the transition flight. In order to confirm the recovery of the flight state after the transition flight, the 7-second area after the end of the transition flight was also analyzed.
 
