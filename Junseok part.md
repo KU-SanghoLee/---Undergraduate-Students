@@ -1,4 +1,4 @@
-# Chapter 1. Introduction 
+#  1. Introduction 
 
 ## Section 1. Research Background
 $\quad$ In this study, we explain the necessity of transition flight scheduling for eVTOL tiltrotor aircraft.
@@ -98,7 +98,7 @@ $\quad$ Therefore, the purpose of this study is to generate a transition flight 
 
 ---------------------------------------------------------------------------------
 
-# Chapter 5. Analysis of Virtual Transition Flight Test Results for eVTOL Tiltrotor
+# 5. Analysis of Virtual Transition Flight Test Results for eVTOL Tiltrotor
 
 $\quad$ In this chapter, an analysis of the test results for eVTOL Tiltrotor simulated transition flights is presented. Section 1 compares and analyzes the results using the existing PX4-Autopilot's transition flight algorithm and the results obtained by applying different transition flight schedules. Through this comparison, the aim is to assess the utility of the transition flight schedule derived from the trim analysis of the 3-degree-of-freedom dynamic model. Section 2 examines and analyzes the discrepancies between the interpretation results and the simulated flight test results.
 
@@ -289,7 +289,7 @@ $\quad$ The flight control system receives pitch attitude setpoint values accord
 
 --------------------------------------------------------
 
-# Chapter 6. Conclusion 
+# 6. Conclusion 
 
 ## Section 1. Conclusion
 
