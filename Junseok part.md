@@ -41,6 +41,9 @@ $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conduc
   <img width="400" height="350" src=![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)>
 </p>
 
+<p align="center">
+  <img src="https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3" />
+</p>
   
 
 ![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/2b6dab61-5690-40e3-92c6-2359383f8ae3)
