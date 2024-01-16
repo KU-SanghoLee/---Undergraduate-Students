@@ -1,1 +1,4 @@
 # 4. Establishing an eVTOL Tiltrotor Flight Simulation Environment
+
+## Section 1. Electric Propulsion Model (KFDS)
+$\quad$ The target aircraft is an eVTOL Tiltrotor aircraft that uses an electric propulsion system. Through flight simulation, an electric propulsion model was added to JSBSim, an open source based flight dynamics software, to predict the flight state of the aircraft. The electric propulsion system of the target aircraft consists of a battery, a power distribution board (PDB), an electronic speed controller (ESC), a blushless direct current (BLDC) motor, and a propeller. The power distribution board does not require any special modeling because it serves to distribute the power required by each component. Therefore, the remaining components except the power distribution board were modeled. The figure below is the architecture of the electric propulsion model.
