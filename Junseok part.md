@@ -39,9 +39,7 @@ $\quad$ In a paper authored at NASA Ames Research Center, an analysis was conduc
 
 <p align="center">
  
-
-![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/4a514b04-5bb7-4731-9e27-2b7dd1b1e4ed)
-
+ ![< image > Shape Database](final%20image/image1.png)
 
 </p>
 
@@ -63,8 +61,7 @@ $\quad$ Afterward, following the optimal slope schedule, specifying trim points 
 
 
 
-![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/6e6d6e30-d2be-4e69-b2ee-984ea6498cbc)
-
+ ![< image > Shape Database](final%20image/image2.png)
 
 
 <p align="center">
@@ -96,7 +93,7 @@ $\quad$ Therefore, the purpose of this study is to generate a transition flight 
 <p align="center"> 6
 
 -----------------------------------------------------------------------------------
-![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/6108b396-c7d2-4cfe-a31d-ae3d40d824fd)
+ ![< image > Shape Database](final%20image/image3.png)
 
 <p align="center">  < Picture 3 > Overall research process architecture
 
@@ -120,8 +117,8 @@ $\quad$ For the state of transition flight, the state of flight such as altitude
 
 -----------------------------------------------------------------------------------
 
+![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/29f0cab8-8331-4d1c-9cb7-9b0768e1c516)
 
-![image](https://github.com/KU-SanghoLee/Master-s-paper-Translate-Undergraduate-Students/assets/155501841/33c7ef45-2ece-4589-b797-dcd1e153b38a)
 
 
 <p align="center"> < Picture 38 > Virtual Transition Flight Test Results Flight Distance Analysis
