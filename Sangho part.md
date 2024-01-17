@@ -236,7 +236,7 @@ $\quad$ In the case of lift modeling, element-based modeling was employed to mod
 
 <center>
 
-![Coeffiecent](/final%20image/Equations/C.jpeg)
+![coefficient](/final%20image/Equations/C.jpeg)
 
 < Modeled Equation >
 
@@ -372,3 +372,137 @@ $\quad$ Subsequently, employing numerical methods, the trim condition-satisfying
 
 ----------------------------------------------------------------------------
 ## Section 2. Transition Flight Schedule for the Target Aircraft
+$\quad$ Based on the previous information, the transition flight schedule for the target aircraft was derived. The transition flight schedule was developed for two designed lift distribution schedules. The target time and target speed for the transition flight schedule were set. The target time utilized the default setting time of 7 seconds for the transition flight algorithm in the flight control software, for future comparison and analysis. The target speed was set to allow a 20% margin from the stall speed. The stall speed is the speed at which the lift generated equals the weight of the aircraft, occurring at the maximum lift coefficient. The following are the formulas for calculating the stall speed, target speed, and the aircraft's lift coefficient graph.
+
+<center>
+
+!["Lift coefficient"](/final%20image/image%2016.jpeg)
+
+< Picture 16 > Lift coefficient graph
+
+!["Speed Equation"](/final%20image/Equations/Required%20Speed.jpeg)
+
+< Required Speed Equation >
+
+</center>
+
+<br>
+<p align="center"> 26
+
+----------------------------------------------------------------------------
+### 1. The speed schedule for the target aircraft
+$\quad$ The speed schedule for the target aircraft is designed for two cases, denoted as 𝐴 and 𝐵. The speed schedule utilizes a 3rd-degree Bezier curve to ensure that the acceleration is zero at start and end points. In the first case 𝐴, the design involves smoothly accelerating and decelerating, using a 3rd-degree Bezier curve with four control points. The starting and ending points are fixed, and the two middle control points are adjusted. These two control points are positioned at 20% and 80% of the total time duration. Below are the control points and the resulting speed schedule obtained from the 3rd-degree Bezier curve. 
+
+<center>
+
+!["Bezier chart"](/final%20image/Chart/chart%202.jpeg)
+
+< chart 2 > The control point information for the speed schedule 𝐴 Bezier curve
+
+!["Speed Schedule A"](/final%20image/image%2017.jpeg)
+
+< Picture 17 > Speed Schedule A
+
+</center>
+
+<br>
+<p align="center"> 27
+
+----------------------------------------------------------------------------
+$\quad$ The second case, 𝐵, is designed to accelerate slowly and then decelerate rapidly near the end. For the 3rd-degree Bezier curve, the starting and ending points are fixed, and the two middle control points are adjusted. These middle control points are positioned at 60% and 80% of the total time duration. The following are the control point details for the 3rd-degree Bezier curve and the resulting speed schedule. Additionally, comparison graphs depicting the variation in jerk, acceleration, speed, and distance for both speed schedules are provided.
+
+<center>
+
+!["Bezier chart B"](/final%20image/Chart/chart%203.jpeg)
+
+< chart 3 > The control point information for the speed schedule _B_ Bezier curve
+
+!["Speed Schedule B"](/final%20image/image%2018.jpeg)
+
+< Picture 18> Speed Schedule B
+
+!["Comparison"](/final%20image/image%2019.jpeg)
+
+< Picture 19 > Comparsion of Speed Schedule A and B
+
+</center>
+
+<br>
+<p align="center"> 28
+
+----------------------------------------------------------------------------
+### 2. Lift Distribution of the Target Aircraft
+$\quad$ Based on the designed aircraft speed schedule, the aircraft's angle of attack schedule was derived through the lift distribution chart. Here, as the lift distribution changes, the angle of attack schedule of the aircraft also changes. To analyze the influence of the lift distribution chart, two different lift distribution charts were designed.
+
+$\quad$ The first lift distribution chart maintains a constant angle of attack during the transition flight process to ensure that the wing's lift distribution reaches 1 at the target speed. The second lift distribution chart also reaches 1 at the target speed, but for a smoother change in lift distribution, the slope of the wing's lift distribution with respect to speed is designed to be 0 at the target speed using a Bezier curve.
+
+$\quad$ The first lift distribution chart is expressed as a constant angle of attack, denoted as 'Constant,' and the second lift distribution chart varies the angle of attack, denoted as 'Change.' The following are the designed lift distribution charts and the resulting schedules for angle of attack and angle of attack rate over time.
+
+<br>
+<p align="center"> 29
+
+----------------------------------------------------------------------------
+
+<center>
+
+!["Bezier chart for Lift distribution"](/final%20image/Chart/chart%204.jpeg)
+
+< chart 4 > The control point information for Lift distribution Bezier curve
+
+!["Graph of Lift distribution"](/final%20image/image%2020.jpeg)
+
+< Picture 20 > Graph of Lift distribution
+
+</center>
+
+<br>
+<p align="center"> 30
+
+----------------------------------------------------------------------------
+
+<center>
+
+!["AoA schedule"](/final%20image/image%2021.jpeg)
+
+< Picture 21 > AoA schedule above Graph of Lift distribution
+
+!["AoA rate schedule"](/final%20image/image%2022.jpeg)
+
+< Picture 22 > rate of AoA schedule above Graph of Lift distribution
+
+</center>
+
+<br>
+<p align="center"> 31
+
+----------------------------------------------------------------------------
+### 3. Trim analysis of the Target aircraft
+$\quad$ Utilizing the previously derived aircraft motion schedule, a trim analysis was conducted. In the trim analysis process, the propeller tilt angle that minimizes the total required thrust of the aircraft was determined, with the goal of maintaining a constant altitude. For this reason, the trim analysis focused on the longitudinal direction, and the aircraft motion schedule considered the elements in the 𝑋-axis direction in the Earth-centered inertial coordinate system. Additionally, it was assumed that the pitch attitude angle and angle of attack during flight were the same. The following are the results obtained through the trim analysis method described earlier.
+
+<br>
+<p align="center"> 32
+
+----------------------------------------------------------------------------
+
+<center>
+
+!["Tirm Analysis"](/final%20image/image%2023.jpeg)
+
+< Picture 23 > The transitional flight schedule of the target aircraft
+
+</center>
+
+<br>
+<p align="center"> 33
+
+----------------------------------------------------------------------------
+$\quad$ According to the transitional flight schedule derived from the trim analysis, it is commonly observed that as the flight speed of the target aircraft increases, the front thrust gradually increases while the rear thrust decreases, reaching zero at a specific time. Additionally, with the change in pitch attitude, there is a slight variation, but consistently, an initially negative pitching moment is generated, followed by a positive pitching moment produced using the tail control surface.
+
+$\quad$ Regarding the flight angle of attack, a larger angle of attack results in an increased difference in the magnitude of front and rear thrust. When an increased flight angle of attack is required, it is noted that a smaller front propeller tilt angle leads to a larger front thrust compared to the rear thrust.
+
+$\quad$ These results can be interpreted based on the aircraft's configuration and flight characteristics. The target aircraft has the thrust center of the propeller positioned above the aircraft's center of gravity. Therefore, as the front propeller tilt angle decreases, the influence of the pitching moment generated by the front thrust diminishes, resulting in a transition from positive to negative pitching moment. This change in the direction of the thrust-induced pitching moment highlights the active use of the tail control surface for pitch control. Similarly, the reduction in the need for rear propeller thrust is observed as the tail control surface generates a positive pitching moment that counteracts the negative pitching moment produced by the front propeller thrust.
+
+<br>
+<p align="center"> 34
+
+----------------------------------------------------------------------------
