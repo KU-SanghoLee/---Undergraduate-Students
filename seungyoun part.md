@@ -99,7 +99,7 @@ $\quad$ The aircraft shape database contains shape information such as the main 
 <p align="center">40
 
 --------------------------------------------------------------------------
-### 1. Weight and Inertia Database
+### 2. Weight and Inertia Database
 $\quad$ The weight and inertia database contains information on the physical properties caused by aircraft mass. The moment of inertia creates a slower rotational force than the low value where the high value is not, and the $I_{XZ}$, $I_{YZ}$, and $I_{XY}$ terms are generally zero because the $X$, $Y$, and $Z$ axes are the main axes. However, in the case of an asymmetric aircraft shape, a term may exist because the $X$, $Y$, and $Z$ axes do not match the symmetrical axis of the aircraft. In the case of weight, it represents the empty weight of the aircraft, but in this paper, the weight of each element is considered as 0, and the total weight is represented by generating weight and inertia data for the whole during the analysis process. Therefore, the weight and inertia database shows information for the entire aircraft. The center of gravity represents the origin of the fuselage fixed coordinate system and is the point of action of gravity. The following is information on the weight and inertia database.
 
 <center>
