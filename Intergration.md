@@ -540,7 +540,7 @@ $\quad$ Based on the designed aircraft speed schedule, the aircraft's angle of a
 
 $\quad$ The first lift distribution chart maintains a constant angle of attack during the transition flight process to ensure that the wing's lift distribution reaches 1 at the target speed. The second lift distribution chart also reaches 1 at the target speed, but for a smoother change in lift distribution, the slope of the wing's lift distribution with respect to speed is designed to be 0 at the target speed using a Bezier curve.
 
-$\quad$ The first lift distribution chart is expressed as a constant angle of attack, denoted as 'Constant,' and the second lift distribution chart varies the angle of attack, denoted as 'Change.' The following are the designed lift distribution charts and the resulting schedules for angle of attack and angle of attack rate over time.
+$\quad$ The first lift distribution chart is expressed as a constant angle of attack, denoted as 'Constant', and the second lift distribution chart varies the angle of attack, denoted as 'Change'. The following are the designed lift distribution charts and the resulting schedules for angle of attack and angle of attack rate over time.
 
 <br>
 <p align="center"> 29
