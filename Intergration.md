@@ -1,3 +1,13 @@
+<center>
+
+# **A Study on the Transition Flight Scheduling and Flight Simulation of eVTOL Tiltrotor Aircraft**
+
+</center>
+
+### Written by Jeongseok Hyun
+#### Department of Aerospace Information Engineering
+#### Graduate School of Konkuk University 
+
 #  1. Introduction 
 
 ## Section 1. Research Background
